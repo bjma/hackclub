@@ -95,5 +95,7 @@ li a {
 li a:hover {
     background-color: ##E42D40;
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+    line-height: 10px;
 }
