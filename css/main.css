@@ -10,65 +10,62 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
-  background: #fff;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* Particles */
 #particles {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  background-color: #E42D40;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #E42D40;
 }
 
 /* Intro to page */
 #intro {
-  position: absolute;
-  left: 0;
-  top: 175px;
-  padding: 0 20px;
-  width: 100%;
-  text-align: center;
+    position: absolute;
+    left: 0;
+    top: 175px;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
 }
 
-h1 {
-  text-transform: uppercase;
-  font-size: 75px;
-  font-weight: 700;
-  letter-spacing: 0.015em;
+#title {
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: white;
 }
 
-h1::after {
-  content: '';
-  width: 80px;
-  display: block;
-  background: #fff;
-  height: 10px;
-  margin: 30px auto;
-  line-height: 1.1;
-}
-p {
-  margin: 0 0 30px 0;
-  font-size: 24px;
+#title::after {
+    content: '';
+    width: 80px;
+    display: block;
+    background: #fff;
+    height: 10px;
+    margin: 30px auto;
+    line-height: 1.1;
 }
 
 /* Creates navigation bar*/
@@ -96,7 +93,6 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #E42D40;
     color: white;
     text-decoration: none;
     border-bottom: 3.5px solid white;
