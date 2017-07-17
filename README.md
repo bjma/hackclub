@@ -9,7 +9,8 @@ TODO:
 * Add more content to About Us page
 * Add team page on About Us page
 * Implement registration page and possibly events page (?)
-* Learn PHP to add functionality (will do at the very end)
+* Learn PHP to add functionality (will do at the very end, tentative actually)
+* Add footer. Will add at end too.
 
 <!-- WHY
       ARE
