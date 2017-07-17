@@ -94,3 +94,18 @@ li a:hover {
     text-align: center;
     margin-top: 15px;
 }
+
+#about a {
+    font-family: 'Amaranth', sans-serif;
+    text-decoration: none;
+    color: #e42d40;
+}
+
+#about a:hover {
+    text-decoration: none;
+    color: #e42d40;
+    border-bottom: 2px solid #e42d40;
+}
+
+/* Team info */
+
