@@ -200,6 +200,7 @@ h3 {
 }
 
 #register-link:hover {
+    font-weight: bold;
     color: #e42d40;
-    border-bottom: 2px solid #e42d40;
+    border-bottom: 3px solid #e42d40;
 }
