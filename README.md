@@ -3,7 +3,7 @@ Website I made for PHHS Hack Club. All borrowed JS libraries are credited.
 IDK CODE.
 
 TODO:
-* Add *more* content to homepage
+* <s>Add *more* content to homepage</s>
 * Link navigation bar to workshops, presentations, etc.
 * <strike>Figure out how external CSS and JavaScript files work on GitHub. Lol.</strike>
 * <s>Add more content to About Us page</s>
