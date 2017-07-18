@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 /* CSS Layout */
 html, body, span, applet, object, iframe,
@@ -29,7 +30,7 @@ time, mark, audio, video {
 html, body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -37,6 +38,12 @@ body {
     color: #fff;
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+
 }
 
 /* Creates navigation bar*/
@@ -108,4 +115,58 @@ li a:hover {
 }
 
 /* Team info */
+.column {
+    /* float: left; */
+    display: inline-block;
+    margin-top: 24px;
+    height: 400px;
+    width: 275px;
+    padding: 0 8px;
+}
 
+@media (max-width: 650px;) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.profile {
+    /* Nothing comes to mind so far */
+}
+
+.container p, h2, h4 {
+    padding: 0 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container h2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.container h4 {
+    margin: 5px 0 5px 0;
+    font-family: 'Amaranth', sans-serif;
+    color: grey;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0 30px 0 30px;
+    position: relative;
+    display: inline;
+}
+
+/* Website info */
+#me {
+    border-bottom: 2px solid #e42d40;
+}
