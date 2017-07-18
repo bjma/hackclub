@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 /* CSS Layout */
 html, body, span, applet, object, iframe,
@@ -27,7 +29,7 @@ time, mark, audio, video {
 html, body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -41,7 +43,7 @@ body {
 /* Particles */
 #particles {
     width: 100%;
-    height: 300px;
+    height: 295px;
     overflow: hidden;
     background-color: #e42d40;
 }
@@ -50,7 +52,7 @@ body {
 #intro {
     position: absolute;
     left: 0;
-    top: 190px;
+    top: 180px;
     padding: 0 20px;
     width: 100%;
     text-align: center;
@@ -67,6 +69,7 @@ body {
 
 #subtitle {
     margin-top: 10px;
+    margin-right: 25px;
     font-style: italic;
     font-size: 20px;
 }
@@ -105,7 +108,8 @@ li a:hover {
 
 /* Mission statement */
 .border section {
-    margin-top: 50px;
+    margin-top: 80px;
+    word-wrap: break-word;
     height: 150px;
     width: 50%;
     margin-left: auto;
@@ -136,4 +140,65 @@ li a:hover {
     font-family: 'Amaranth', sans-serif;
     font-size: 26px;
     text-align: center;
+}
+/* FAQ */
+#faq {
+    background-color: #e42d40;
+    margin-top: 115px;
+    padding-bottom: 8px;
+    height: auto;
+}
+
+#faq h1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#faq p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+    margin: 5px 325px 3px 325px;
+}
+
+#faq span {
+    border-bottom: 2px solid white;
+}
+
+/* Club photos */
+#club-photos {
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#club-photos img {
+    width: 28%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color: grey;
+    padding-bottom: 5px;
+}
+
+#register-link {
+    text-decoration: none;
+    color: grey;
+}
+
+#register-link:hover {
+    color: #e42d40;
+    border-bottom: 2px solid #e42d40;
 }
