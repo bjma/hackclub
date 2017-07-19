@@ -44,22 +44,21 @@ body {
 #particles {
     width: 100%;
     height: 295px;
-    overflow: hidden;
     background-color: #e42d40;
 }
 
 /* Intro to page */
 #intro {
     position: absolute;
+    text-align: center;
     left: 0;
     top: 180px;
     padding: 0 20px;
     width: 100%;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 #title {
-    text-align: center;
     text-transform: uppercase;
     font-size: 80px;
     font-weight: 700;
@@ -110,7 +109,7 @@ li a:hover {
 
 /* Mission statement */
 .border section {
-    margin-top: 115px;
+    margin-top: 80px;
     word-wrap: break-word;
     height: 150px;
     width: 50%;
