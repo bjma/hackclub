@@ -106,6 +106,7 @@ li a:hover {
 
 .resources p {
     font-family: 'Roboto', monospace;
+    font-size: 18px;
     color: grey;
     margin-top: 15px;
 }
