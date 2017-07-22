@@ -107,22 +107,22 @@ li a:hover {
 }
 
 /* Mission statement */
-fieldset {
+#mission {
     border: 3px solid #e42d40;
     margin: 100px auto 0 auto;
     width: 50%;
     position: relative;
 }
 
-fieldset p {
-    margin-bottom: 15px;
+#mission p {
+    margin: 15px 0 15px 0;
     font-family: 'Amaranth', sans-serif;
     font-size: 26px;
     color: #222222;
     text-align: center;
 }
 
-legend {
+#mission legend {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     color: #e42d40;
