@@ -111,6 +111,7 @@ fieldset {
     border: 3px solid #e42d40;
     margin: 100px auto 0 auto;
     width: 50%;
+    position: relative;
 }
 
 fieldset p {
@@ -125,9 +126,10 @@ legend {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     color: #e42d40;
-    top: 5px;
     padding: 0 3px 0 3px;
-
+    position: absolute;
+    top: -25px;
+    background: #fff;
 }
 
 /* FAQ */
