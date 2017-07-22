@@ -11,8 +11,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-fieldset, form, label, legend,
+b, u, i, center, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -108,40 +107,29 @@ li a:hover {
 }
 
 /* Mission statement */
-.border section {
-    margin-top: 115px;
-    word-wrap: break-word;
-    height: 140px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+fieldset {
     border: 3px solid #e42d40;
+    margin: 100px auto 0 auto;
+    width: 50%;
 }
 
-.file-marker > div {
-    padding: 0 3px;
-    height: 100px;
-    margin-top: -0.8em;
-}
-.box-title {
-    background: white none repeat scroll 0 0;
-    display: inline-block;
-    margin-top: -12px;
-    padding: 0 2px;
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    font-weight: 300;
-    color: #e42d40;
-}
-
-#mission p {
-    margin-top: 5px;
-    margin-left: 5px;
-    color: #222222;
+fieldset p {
+    margin-bottom: 15px;
     font-family: 'Amaranth', sans-serif;
     font-size: 26px;
+    color: #222222;
     text-align: center;
 }
+
+legend {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #e42d40;
+    top: 5px;
+    padding: 0 3px 0 3px;
+
+}
+
 /* FAQ */
 #faq {
     background-color: #e42d40;
