@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/pg5.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/registration.js">
+
+    </script>
+</head>
+<body>
+    <div>
+        <ul id="nav">
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../materials/index.html">Materials</a></li>
+            <li><a href="../events/index.html">Events</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </div>
+
+    <div id="register">
+        <h1>Join Hack Club!</h1>
+        <form name="registration" class="register_form" action="https://formspree.io/jingjerma@gmail.com" method="post" enctype="text/plain"
+        onsubmit="submitConfirm()">
+        <ul>
+            <li>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" maxlength="15" required>
+            </li>
+            <br>
+            <li>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" maxlength="20" required>
+            </li>
+            <br>
+            <li>
+                <label for="grade">Grade</label>
+                <select name="grade" required>
+                    <option style="display:none;"></option>
+                    <option value="freshman">9</option>
+                    <option value="sophomore">10</option>
+                    <option value="junior">11</option>
+                    <option value="senior">12</option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <label for="idNumber">ID Number</label>
+                <input type="text" name="idNumber" maxlength="8" required>
+            </li>
+            <br>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="name" required>
+            </li>
+        </ul>
+        <input type="hidden" name="success" value="success.html">
+        <br>
+        <div id="buttonHolder">
+        <input id="submit_button" type="submit" value="Submit">
+        </div>
+        </form>
+
+</body>
+</html>
