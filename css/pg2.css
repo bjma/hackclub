@@ -178,6 +178,7 @@ img {
 	background: #fff;
     border-top: 1px solid #ccc;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 #footer p {
@@ -185,7 +186,6 @@ img {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    margin-top: 50px;
     color: #000;
 }
 
