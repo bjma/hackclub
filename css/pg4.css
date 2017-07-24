@@ -34,7 +34,7 @@ html, body {
 
 body {
     background: #fff;
-    color: #fff;
+    /*color: #fff;*/   /* Okay what the fuck??? */
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     text-align: center;
