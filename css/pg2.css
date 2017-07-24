@@ -189,13 +189,19 @@ img {
     color: #000;
 }
 
-#footer a {
+#footer a { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #000;
     text-decoration: none;
     border-bottom: 1px solid #000;
     color: #000;
 }
 
 #footer a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #000;
     text-decoration: none;
     border-bottom: none;
     color: #e42d40;
