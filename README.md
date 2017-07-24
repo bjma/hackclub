@@ -20,9 +20,10 @@ Future implementations:
 * Learn PHP to add functionality (will do at the very end, tentative actually)
 * Add more tutorials for other languages
 
-Libraries:
-* particleground.js
-* Bootstrap CSS
+Credits:
+* particleground.js JavaScript library
+* Bootstrap CSS library
+* formspree.io (Server that redirects form submissions to email)
 
 <!-- WHY
       ARE
