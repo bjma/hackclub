@@ -180,7 +180,7 @@ img {
 }
 
 #footer p {
-    /*margin-bottom: 2px;*/
+    margin: 0 0 2px 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
