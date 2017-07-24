@@ -1,6 +1,10 @@
 # Piedmont Hills Hack Club
-Website I made for PHHS Hack Club. All borrowed JS libraries are credited. 
-IDK CODE.
+VERSION 1.0.0 IS OFFICIALLY FINISHED.
+
+This is the website I made for my high school's after school coding club.
+It includes a homepage, about us page, events page, materials page, and registration page.
+Shoutout to the members of other branches of Hack Club for helping me get this website up.
+Also thanks to GitHub for the free DNS from Namecheap (You can get it from the student pack).
 
 TODO:
 * <s>Add *more* content to homepage</s>
@@ -9,13 +13,19 @@ TODO:
 * <s>Add more content to About Us page</s>
 * <s>Add team page on About Us page</s>
 * <s>Implement registration page and possibly events page (?)</s>
-* Add footer. Will add at end too.
+* <s>Add footer. Will add at end too.</s>
 * Add HTML&CSS and Java tutorials
+
+Future implementations:
+* Learn PHP to add functionality (will do at the very end, tentative actually)
+* Add more tutorials for other languages
+
+Libraries:
+* particleground.js
+* Bootstrap CSS
 
 <!-- WHY
       ARE
         YOU
           HERE-->
-Future implementations:
-* Learn PHP to add functionality (will do at the very end, tentative actually)
-* Add more tutorials for other languages
+
