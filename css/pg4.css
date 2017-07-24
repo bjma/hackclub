@@ -131,13 +131,13 @@ h4 {
     margin: 0 220px 5px 220px;
 }
 
-.photos {
+#photos {
     display: inline-block;
     text-align: center;
     margin-top: 10px;
 }
 
-.photos img {
+#photos img {
     width: 28%;
     margin: 0 auto;
     padding-bottom: 20px;
