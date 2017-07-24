@@ -179,7 +179,7 @@ select {
 #footer a:hover {
     text-decoration: none;
     border-bottom: none;
-    color: #e42d40;
+    color: #ccc;
     font-weight: 400;
 }
 
