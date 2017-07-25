@@ -154,11 +154,11 @@ select {
 }
 
 #footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 50px;
-	background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
     border-top: 1px solid #ccc;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
