@@ -186,7 +186,7 @@ img {
 #footer p {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    margin-bottom: 2px;
+    margin: 0 auto;
     text-align: center;
     color: #000;
 }
