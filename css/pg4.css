@@ -38,6 +38,7 @@ body {
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 /* Creates navigation bar*/
@@ -124,6 +125,10 @@ h4 {
     margin-top: 20px;
 }
 
+.post {
+    padding-bottom: 80px;
+}
+
 .post p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -152,15 +157,14 @@ h4 {
 
 #footer {
     position: absolute;
-    bottom: 1;
+    bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 50px;
     background: #fff;
     border-top: 1px solid #ccc;
-    padding-bottom: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    margin-top: 50px;
+    
 }
 
 #footer p {
