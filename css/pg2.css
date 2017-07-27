@@ -113,10 +113,6 @@ li a:hover {
 }
 
 /* Team info */
-.row {
-    padding-bottom: 80px;
-}
-
 .column {
     /* float: left; */
     display: inline-block;
