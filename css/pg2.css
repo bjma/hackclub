@@ -74,6 +74,10 @@ li a:hover {
 }
 
 /* About Us Description */
+#about {
+    padding-bottom: 15px;
+}
+
 #about h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
@@ -127,10 +131,6 @@ li a:hover {
 
 .profile {
     /* Nothing comes to mind so far */
-}
-
-.container {
-    padding-bottom: 15px; /* To leave space between footer and content */
 }
 
 .container p, h2, h4 {
