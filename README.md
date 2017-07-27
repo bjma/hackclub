@@ -7,6 +7,7 @@ Shoutout to the members of other branches of Hack Club for helping me get this w
 Also thanks to GitHub for the free DNS from Namecheap (You can get it from the student pack).
 
 BUGS:
+
 <s>At the moment, there is a small bug where the footer is cut off on some pages. It could
 be the result of some of the stylings I used for certain elements pushing the sticky
 footer down, or just the way GitHub processes CSS stylesheets (IDK). 
