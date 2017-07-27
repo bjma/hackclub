@@ -80,22 +80,27 @@ li a:hover {
     margin-top: 50px;
 }
 
+#event-calendar {
+    text-align: center;
+}
+
 #event-calendar h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 60px;
-    color: #fff
+    color: white;
 }
 
 #event-calendar h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    color: #fff;
+    color: white;
 }
 
 iframe {
     margin-top: 50px;
 }
+
 
 /* Upcoming events */
 .container {
@@ -108,16 +113,18 @@ iframe {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 60px;
-    color: #fff;
+    color: white;
+    text-align: center;
 }
 
 #upcoming-events h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    color: #fff;
+    color: white;
+    text-align: center;
 }
 
-h4 {
+.post-title {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
     color: #000;
@@ -125,15 +132,13 @@ h4 {
     margin-top: 20px;
 }
 
-.post {
-    padding-bottom: 80px;
-}
-
-.post p {
+.post-content {
+    width: 50%;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000;
-    margin: 0 220px 5px 220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #photos {
