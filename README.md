@@ -13,7 +13,7 @@ be the result of some of the stylings I used for certain elements pushing the st
 footer down, or just the way GitHub processes CSS stylesheets (IDK). 
 Currently working on it.</s>
 
-Fixed.
+Fixed. Problem was unclosed elements.
 
 TODO:
 * <s>Add *more* content to homepage</s>
