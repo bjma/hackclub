@@ -75,7 +75,7 @@ li a:hover {
 
 /* About Us Description */
 #about {
-    padding-bottom: 30px; /* To leave space between footer and content */
+    padding-bottom: 15px; /* To leave space between footer and content */
 }
 
 #about h1 {
