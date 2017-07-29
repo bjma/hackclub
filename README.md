@@ -6,7 +6,7 @@ It includes a homepage, about us page, events page, materials page, and registra
 Shoutout to the members of other branches of Hack Club for helping me get this website up.
 Also thanks to GitHub for the free DNS from Namecheap (You can get it from the student pack).
 
-##TODO:
+## TODO:
 * <s>Add *more* content to homepage</s>
 * <s>Link navigation bar to workshops, presentations, etc.</s>
 * <s>Figure out how external CSS and JavaScript files work on GitHub. Lol.</s>
@@ -16,10 +16,10 @@ Also thanks to GitHub for the free DNS from Namecheap (You can get it from the s
 * <s>Add footer. Will add at end too.</s>
 * Add HTML&CSS and Java tutorials
 
-##Future implementations:
+## Future implementations:
 * Add more tutorials for other languages
 
-##Credits:
+## Credits:
 * particleground.js JavaScript library
 * Bootstrap CSS library
 * formspree.io (Server that redirects form submissions to email)
