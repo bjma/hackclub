@@ -6,16 +6,7 @@ It includes a homepage, about us page, events page, materials page, and registra
 Shoutout to the members of other branches of Hack Club for helping me get this website up.
 Also thanks to GitHub for the free DNS from Namecheap (You can get it from the student pack).
 
-BUGS:
-
-<s>At the moment, there is a small bug where the footer is cut off on some pages. It could
-be the result of some of the stylings I used for certain elements pushing the sticky
-footer down, or just the way GitHub processes CSS stylesheets (IDK). 
-Currently working on it.</s>
-
-Fixed. Problem was unclosed elements.
-
-TODO:
+##TODO:
 * <s>Add *more* content to homepage</s>
 * <s>Link navigation bar to workshops, presentations, etc.</s>
 * <s>Figure out how external CSS and JavaScript files work on GitHub. Lol.</s>
@@ -25,11 +16,10 @@ TODO:
 * <s>Add footer. Will add at end too.</s>
 * Add HTML&CSS and Java tutorials
 
-Future implementations:
-* Learn PHP to add functionality (will do at the very end, tentative actually)
+##Future implementations:
 * Add more tutorials for other languages
 
-Credits:
+##Credits:
 * particleground.js JavaScript library
 * Bootstrap CSS library
 * formspree.io (Server that redirects form submissions to email)
