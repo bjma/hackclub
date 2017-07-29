@@ -100,13 +100,13 @@ li a:hover {
     margin-top: 15px;
 }
 
-#about a {
+#about-us a {
     font-family: 'Amaranth', sans-serif;
     text-decoration: none;
     color: #e42d40;
 }
 
-#about a:hover {
+#about-us a:hover {
     text-decoration: none;
     color: #e42d40;
     border-bottom: 2px solid #e42d40;
@@ -118,7 +118,7 @@ li a:hover {
     display: inline-block;
     margin-top: 24px;
     height: 400px;
-    width: 275px;
+    width: 265px;
     padding: 0 8px;
 }
 
@@ -163,10 +163,6 @@ img {
     position: relative;
     display: inline;
 }
-.container a:hover {
-    border-bottom: 0;
-    text-decoration: none;
-}
 
 i {
     color: grey;
@@ -175,6 +171,11 @@ i {
 
 i:hover {
     color: #aaa;
+    border-bottom: none;
+}
+
+.container a:hover {
+    text-decoration: none;
     border-bottom: none;
 }
 
