@@ -163,6 +163,10 @@ img {
     position: relative;
     display: inline;
 }
+.container a:hover {
+    border-bottom: 0;
+    text-decoration: none;
+}
 
 i {
     color: grey;
@@ -171,11 +175,6 @@ i {
 
 i:hover {
     color: #aaa;
-    border-bottom: none;
-}
-
-.container a:hover {
-    text-decoration: none;
     border-bottom: none;
 }
 
