@@ -164,6 +164,21 @@ img {
     display: inline;
 }
 
+i {
+    color: grey;
+    margin: 0 3px 0 3px;
+}
+
+i:hover {
+    color: #aaa;
+    border-bottom: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* Footer */
 #container {
     min-height: 100%;
