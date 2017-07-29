@@ -155,7 +155,8 @@ iframe {
 
 #photos img {
     width: 28%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     /*padding-bottom: 20px;*/
 }
 
