@@ -1,6 +1,6 @@
 # Piedmont Hills Hack Club
 
-**VERSION 2.0.0**
+## VERSION 2.0.0
 ### Changes:
 * New banner;
 * Updated team page with social media icons;
