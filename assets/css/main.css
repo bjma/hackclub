@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* CSS Layout */
 html, body, span, applet, object, iframe,
@@ -45,7 +46,7 @@ body {
     z-index: 1;
     height: 295px;
     width: 100%;
-    background-color: rgba(222,84,30,.6);
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
 }
 
@@ -60,7 +61,7 @@ body {
     position: absolute;
     text-align: center;
     left: 0;
-    top: 54px;
+    top: 72px;
     padding: 0 20px;
     width: 100%;
     box-sizing: border-box; /* keeps everything centered */
@@ -85,12 +86,16 @@ body {
 
 /* Creates navigation bar*/
 ul {
+    text-align: center;
+    top: 0;
     list-style-type: none;
     margin: 0;
-    margin-top: 36px;
     padding: 0;
-    margin-bottom: 0;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 li {
@@ -111,7 +116,7 @@ li a {
 li a:hover {
     color: white;
     text-decoration: none;
-    border-bottom: 3.5px solid white;
+    font-weight: bold;
     line-height: 0;
 }
 
