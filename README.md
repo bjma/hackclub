@@ -1,6 +1,13 @@
 # Piedmont Hills Hack Club
-**VERSION 1.0.0 IS OFFICIALLY FINISHED.**
 
+**VERSION 2.0.0**
+### Changes:
+* New banner;
+* Updated team page with social media icons;
+* Implemented form validation;
+* Added tutorials;
+
+## About
 This is the website I made for my high school's after school coding club.
 It includes a homepage, about us page, events page, materials page, and registration page.
 Shoutout to the members of other branches of Hack Club for helping me get this website up.
@@ -28,4 +35,3 @@ Also thanks to GitHub for the free DNS from Namecheap (You can get it from the s
       ARE
         YOU
           HERE-->
-
