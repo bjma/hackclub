@@ -126,6 +126,9 @@ iframe {
 
 .post {
     padding-bottom: 80px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-title {
@@ -133,18 +136,14 @@ iframe {
     font-size: 32px;
     color: #000;
     font-weight: bold;
-    text-align: center;
     margin-top: 20px;
 }
 
 .post-content {
-    width: 50%;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #photos {
