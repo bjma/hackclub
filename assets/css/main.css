@@ -54,7 +54,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('../images/placeholder.jpg');
-    background-size: 100%;
+    background-size: cover;
 }
 
 #intro {
