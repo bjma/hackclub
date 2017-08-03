@@ -5,7 +5,7 @@
 * New banner;
 * Updated team page with social media icons;
 * Implemented form validation;
-* Added tutorials;
+* Added ShipIt link;
 
 ## About
 This is the website I made for my high school's after school coding club.
@@ -23,8 +23,11 @@ Also thanks to GitHub for the free DNS from Namecheap (You can get it from the s
 * <s>Add footer. Will add at end too.</s>
 * Add HTML&CSS and Java tutorials
 
-## Future implementations:
-* Add more tutorials for other languages
+## Future plans/implementations:
+* I'm planning on completely redesigning the site sometime around next year,
+or perhaps leaving the new generation of Hack Club leaders make it. I'm just
+really unsatisfied with the messiness of the site; I want it to be cleaner and
+more easily navigable, perhaps having a maximum of only 3 pages.
 
 ## Credits:
 * particleground.js JavaScript library

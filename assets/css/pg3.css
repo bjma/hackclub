@@ -95,7 +95,10 @@ li a:hover {
 
 .resources {
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 80px;
+    width: 60%;
 }
 
 .resources h2 {
@@ -113,9 +116,20 @@ li a:hover {
     margin-top: 15px;
 }
 
+.profiles {
+    text-decoration:none;
+    border-bottom:1px dotted #666;
+    color: #666;
+}
+
+.profiles:hover {
+    border-bottom: none;
+}
+
 .button {
     background-color: #e42d40;
     border: 3px solid #e42d40;
+    border-radius: 2px;
     color: white;
     padding: 15px 32px;
     text-align: center;
