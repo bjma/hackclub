@@ -1,16 +1,8 @@
 # Piedmont Hills Hack Club
-
-## VERSION 2.0.0
-### Changes:
-* New banner;
-* Updated team page with social media icons;
-* Implemented form validation;
-* Added ShipIt link;
-
 ## About
 This is the website I made for my high school's after school coding club.
 It includes general stuff a website would normally have, including our own materials
-+ resources from external sources. Feel free to contribute.
+and resources from external sources. Feel free to contribute.
 
 ## TODO:
 * <s>Add *more* content to homepage</s>
