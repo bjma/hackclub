@@ -1,4 +1,4 @@
-// Checks if ID number is valid by checking its first two indexes.
+// Checks if ID number is valid by checking the first two indexes.
 function formValidation() {
     var idInput = document.getElementsByName('idNumber')[0].value;
     var idNumber = idInput.substring(0, 2);

@@ -1,10 +1,9 @@
 /* Imported fonts */
-@import url('https://fonts.googleapis.com/css?family=Amaranth');
+/* Imported fonts */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
 
 /* CSS reset */
 html, body, span, applet, object, iframe,
@@ -29,223 +28,223 @@ time, mark, audio, video {
 html, body {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
 }
 
 body {
-    background: #fff;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 50px;
 }
 
-/* Heading */
-#color {
-    z-index: 1;
-    height: 325px;
-    width: 100%;
+/* Navbar */
+.navbar {
+    overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
+.navbar a {
+    float: left;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+/* Header */
 #header {
-    width: 100%;
     height: 100%;
-    background-image: url('../images/placeholder.jpg');
-    background-size: cover;
+    width: 100%;
+    /*background: #e42d40;*/
+    background: url('../images/bg.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+
+}
+
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
 }
 
 #intro {
     position: absolute;
-    text-align: center;
-    left: 0;
-    top: 92px;
-    padding: 0 20px;
+    top: 25%;
     width: 100%;
-    box-sizing: border-box; /* keeps everything centered */
 }
 
 #title {
-    text-transform: uppercase;
-    font-size: 80px;
-    font-weight: 700;
-    font-family: 'Amaranth', sans-serif;
-    letter-spacing: 0.025em;
-    color: white;
+    text-align: center;
 }
 
-#subtitle {
-    margin-top: -15px;
-    text-align: center;
-    font-style: italic;
-    font-size: 25px;
-    color: white;
-}
-
-/* Creates navigation bar*/
-ul {
-    text-align: center;
-    top: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#title p {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 18px;
     background: rgba(0, 0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 1px;
+    padding: 0 2px 0 2px;
 }
 
-li {
-    text-align: center;
-    display: inline-block;
-    font-size: 1.1em;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 20px 22.86px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 0;
-}
-
-/* Mission statement */
-#mission {
-    border: 3px solid #e42d40;
-    margin: 115px auto 0 auto;
-    width: 50%;
-    position: relative;
-}
-
-#mission p {
-    margin: 15px 0 15px 0;
+#title h1 {
     font-family: 'Amaranth', sans-serif;
-    font-size: 26px;
-    color: #222222;
-    text-align: center;
+    color: #fff;
+    font-size: 72px;
+}
+
+#header hr {
+    width: 22%;
+    border: none;
+    height: 4px;
+    color: #fff;
+    background-color: #fff;
+}
+
+#mission fieldset {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
 }
 
 #mission legend {
+    top: -15px;
+    padding: 0 4px 0 4px;
     font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    color: #e42d40;
-    padding: 0 3px 0 3px;
-    position: absolute;
-    top: -26.5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#mission p {
+    padding: 4px 0 8px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+#announcements {
+    width: 60%;
     background: #fff;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px 5px 15px 5px;
 }
 
-/* FAQ */
-#faq {
-    background-color: #e42d40;
-    margin-top: 115px;
-    padding-top: 2px;
-    padding-bottom: 12px;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-#faq h1 {
-    font-family: 'Amaranth', sans-serif;
-    font-size: 40px;
-    text-align: center;
-}
-
-#faq p {
+#announcements h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 550;
-    width: 50%;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#announcements p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+}
+
+#down-button {
+    position: absolute;
+    margin: 0 0 0 50%;
+    color: #fff;
+    bottom: 4px;
+}
+
+#down-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Content wrapper */
+#content {
+    height: 100%;
+}
+
+/* About */
+#about {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-
-#faq span {
-    border-bottom: 2px solid white;
-}
-
-/* Club photos */
-#club-photos {
-    display: inline-block;
+#about-title {
     text-align: center;
-    margin-top: 80px;
 }
 
-#club-photos img {
-    width: 28%;
-    margin: 0 auto;
-    padding-bottom: 150px;
+#about img {
+    height: 70px;
+    width: 150px;
 }
 
-h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: #000;
-}
-
-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
-    color: grey;
-    padding-bottom: 5px;
-}
-
-#register-link {
-    text-decoration: none;
-    color: grey;
-}
-
-#register-link:hover {
-    font-weight: bold;
-    color: #e42d40;
-    border-bottom: 3px solid #e42d40;
-}
-
-/* Footer */
-#container {
-    min-height: 100%;
-    position: relative;
-}
-
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background: #fff;
-    border-top: 1px solid #ccc;
+#about h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 36px;
+    color: #000;
 }
 
-#footer p {
-    margin-bottom: 2px;
+#card-container {
     text-align: center;
-    color: #000;
 }
 
-#footer a {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-    color: #000;
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 275px;
+    margin: 15px 10px 0 15px;
+    padding-bottom: 15px;
 }
 
-#footer a:hover {
-    text-decoration: none;
-    border-bottom: none;
-    color: #e42d40;
-    font-weight: 400;
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+.container h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 2px 16px;
 }

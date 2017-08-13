@@ -1,74 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- font awesome -->
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Piedmont Hills Hack Club</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="https://register.phhshackclub.tech">Register</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-<head>
-    <meta charset="utf-8">
-    <title>Piedmont Hills Hack Club</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-   <div id="container">
-       <div id="color">
-           <div id="header">
-               <ul class="navbar">
-                   <li><a class="active" href="">Home</a></li>
-                   <li><a href="about">About</a></li>
-                   <li><a href="materials">Materials</a></li>
-                   <li><a href="events">Events</a></li>
-                   <li><a href="register">Register</a></li>
-               </ul>
-               <div id="intro">
-                   <h1 id="title">Hack Club</h1>
-                   <br>
-                   <h2 id="subtitle">Piedmont Hills High School</h2>
+        <div id="header">
+            <div id="intro">
+                <div id="title">
+                    <p>Piedmont Hills</p>
+                    <h1>Hack Club</h1>
+                    <hr>
+                </div>
+                <div id="mission">
+                    <fieldset>
+                        <legend>our mission</legend>
+                        <p>To create a commmunity for coders and further
+                        programming literacy through community outreach and
+                        interactive workshops.</p>
+                    </fieldset>
+                </div>
+                <div id="announcements">
+                    <h2>Announcements
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i></h2>
+                    <p>Our first meeting will be on 9/12/17 in room F-27
+                    after seventh period. Hope to see you there!</p>
+                </div>
+            </div>
+            <div id="down-button">
+                <a href="#content">
+                    <i class="fa fa-chevron-down fa-lg"></i>
+                </a>
             </div>
         </div>
-    </div>
 
-    <fieldset id="mission">
-        <legend>our mission</legend>
-        <p>To bring students together through a mutual passion for
-            coding and furthering programming literacy by community
-            outreach and interactive workshops.</p>
-    </fieldset>
-
-    <div id="faq">
-        <h1>What is Hack Club?</h1>
-        <p style="text-align:center;">
-        Hack Club is an after-school coding club around the <em>globe</em>.</p>
-        <p>Here at Piedmont Hills, we dedicate every Tuesday teaching any
-        curious students about programming and web development that are
-        not taught in school.</p>
-        <p style="text-align:center;"
-        >Subjects include <span>Java</span>, <span>HTML</span>, <span>CSS</span>,
-        and <span>JavaScript</span>.</p>
-        <p>When we say "hack", we do not mean we sit in a dark room with ski masks
-        on, installing viruses on school computers during club meetings.
-        What we mean by "hacking" is using code to build cool things and solve
-        complex problems.</p>
-
-    </div>
-
-    <div id="club-photos">
-        <h2>Club Photos</h2>
-        <h3><a id="register-link" href="register/index.html"> Join today</a> and maybe you'll be in here too!</h3>
-        <img alt="photo1" src="assets/images/photo1.jpg">
-        <img alt="photo2" src="assets/images/photo2.jpg">
-        <img alt="photo3" src="assets/images/photo3.jpg">
-    </div>
-
-    <div id="footer">
-            <p style="margin-top:15px;">Website designed by <a href="http://jingje.me">Brian Ma</a></p>
-            <p>Copyright &copy; 2017 Piedmont Hills Hack Club All Rights Reserved.</p>
-            <p><a href="https://hackclub.com">Visit official Hack Club website</a></p>
-            <i class="fa fa-github"></i>
+        <div id="content">
+            <div id="about">
+                <div id="about-title">
+                    <img src="assets/images/hackclub.svg" alt="hack club">
+                    <h1>About Us</h1>
+                </div>
+                <div id="card-container">
+                    <div class="card">
+                    <i class='fa fa-question-circle-o fa-2x'
+                    style="margin-top:8px;"></i>
+                    <div class="container">
+                        <h4>Who are we?</h4>
+                        <p>Hack Club is an after-school
+                        coding club dedicated to building a community for coders
+                        and encouraging them to create innovative projects to
+                        share with the world. When we say "hack", we mean using
+                        code to solve complex problems and make cool things,
+                        not breaking into other people's bank accounts.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class='fa fa-user-plus fa-2x'
+                    style="margin-top:8px;"></i>
+                    <div class="container">
+                        <h4>Who can join?</h4>
+                        <p>Hack Club is open for anyone to join, whether you know
+                        how to code or not. We accept people of all genders,
+                        sexual-orientation, and skill level. Our goal here is to
+                        help people start on building projects using programming
+                        and web development skills, not to create an exclusive
+                        all-boys-club for STEM students.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class='fa fa-code fa-2x'
+                    style="margin-top:8px;"></i>
+                    <div class="container">
+                        <h4>What do we do?</h4>
+                        <p>Every Tuesday, students come into the club room
+                        and prepare to work on group projects or solo projects,
+                        and can have the possibility of presenting it during
+                        a meeting. We also provide tutorials and hands-on
+                        assistance to those who are unfamiliar or are new to
+                        coding. Intro to CompSci or AP CompSci is recommended,
+                        but not required.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-</body>
+    <!-- Scripts; keep at bottom -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
 </html>
