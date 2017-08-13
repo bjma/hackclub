@@ -131,7 +131,7 @@ body {
 }
 
 #mission fieldset {
-    width: 40%;
+    width: 58%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -139,11 +139,10 @@ body {
 }
 
 #mission legend {
-    top: -15px;
     padding: 0 4px 0 4px;
     font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 #mission p {
@@ -151,6 +150,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 18px;
+    text-align: center;
 }
 
 #announcements {
@@ -197,19 +197,19 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#about-title {
+.title {
     text-align: center;
+}
+
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #000;
 }
 
 #about img {
     height: 70px;
     width: 150px;
-}
-
-#about h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    color: #000;
 }
 
 #card-container {
@@ -247,4 +247,9 @@ body {
 
 .container {
     padding: 2px 16px;
+}
+
+/* Font Awesome icons */
+#content i {
+    color: #666;
 }
