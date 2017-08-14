@@ -64,7 +64,7 @@ body {
     height: 100%;
     width: 100%;
     /*background: #e42d40;*/
-    background: url('../images/bg.png') repeat 0 0;
+    background: url('../images/bg.png') fixed repeat 0 0;
 	-webkit-animation: 10s linear 0s normal none infinite animate;
 	-moz-animation: 10s linear 0s normal none infinite animate;
 	-ms-animation: 10s linear 0s normal none infinite animate;
