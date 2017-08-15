@@ -325,6 +325,7 @@ body {
 }
 
 i {
+    transition: 0.3s;
     color: grey;
     margin: 0 3px 0 3px;
 }
