@@ -235,6 +235,10 @@ body {
     width: 150px;
 }
 
+#about a {
+    text-decoration: none;
+}
+
 #card-container {
     text-align: center;
 }
