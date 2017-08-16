@@ -324,13 +324,13 @@ body {
     color: #e42d40;
 }
 
-i {
+.profile-container i {
     transition: 0.3s;
     color: grey;
     margin: 0 3px 0 3px;
 }
 
-i:hover {
+.profile-container i:hover {
     color: #aaa;
     border-bottom: none;
 }
