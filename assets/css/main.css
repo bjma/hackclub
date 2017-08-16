@@ -1,0 +1,345 @@
+/* Imported fonts */
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+/* CSS reset */
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+/* Header */
+#header {
+    height: 100%;
+    width: 100%;
+    /*background: #e42d40;*/
+    background: url('../images/bg.png') fixed repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+
+}
+
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+#intro {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+#title p {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0);
+    padding: 0 2px 0 2px;
+}
+
+#title h1 {
+    font-family: 'Amaranth', sans-serif;
+    color: #fff;
+    font-size: 72px;
+}
+#title h1 span {
+    position: relative;
+    padding-bottom: 15px;
+}
+#title h1 span::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 4px solid #fff;
+    content: ""
+}
+
+#mission fieldset {
+    width: 58%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+}
+
+#mission legend {
+    padding: 0 4px 0 4px;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 22px;
+}
+
+#mission p {
+    padding: 4px 0 8px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+#announcement {
+    width: 60%;
+    background: #fff;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px 5px 15px 5px;
+}
+
+#announcement h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#announcement p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+}
+
+#down-button {
+    position: absolute;
+    margin: 0 0 0 50%;
+    color: #fff;
+    bottom: 4px;
+}
+
+#down-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Content wrapper */
+#content {
+    height: 100%;
+    padding-bottom: 400px;
+}
+
+/* About */
+#about {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #000;
+}
+
+.title hr {
+    margin-top: 15px;
+    border: none;
+    height: 1px;
+    width: 870px;
+    color: #ccc;
+    background-color: #ddd;
+}
+
+#about img {
+    height: 70px;
+    width: 150px;
+}
+
+#card-container {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 275px;
+    margin: 20px 10px 0 15px;
+    padding-bottom: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card i {
+    color: #000;
+}
+
+.container h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/* Team profiles */
+#team-members {
+    margin-top: 70px;
+}
+.row {
+    text-align: center;
+}
+.column {
+    text-align: center;
+    display: inline-block;
+    margin-top: 24px;
+    padding: 0 8px;
+}
+
+@media (max-width: 650px;) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.profile-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    height: 245px;
+    width: 215px;
+    margin: 0 10px 0 10px;
+}
+
+.profile-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.profile-container p, h2, h4 {
+    padding: 0 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.profile-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profile-container h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.profile-container h4 {
+    margin: 5px 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #e42d40;
+}
+
+i {
+    transition: 0.3s;
+    color: grey;
+    margin: 0 3px 0 3px;
+}
+
+i:hover {
+    color: #aaa;
+    border-bottom: none;
+}
+
+.profile-container a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#team-members img {
+    margin-top: 20px;
+}
