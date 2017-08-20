@@ -244,15 +244,16 @@ body {
 
 .card {
     display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
     transition: 0.3s;
+    border: 1px solid #ddd;
     width: 275px;
     margin: 20px 10px 0 15px;
     padding-bottom: 15px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(10, 10, 10, 0.1);
     cursor: pointer;
 }
 
@@ -300,8 +301,10 @@ body {
 }
 
 .profile-container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
     transition: 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     height: 245px;
     width: 200px;
     margin: 0 10px 0 10px;
@@ -309,7 +312,7 @@ body {
 }
 
 .profile-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(10, 10, 10, 0.1);
     cursor: pointer;
 }
 
@@ -375,12 +378,102 @@ body {
     margin: 0 auto;
 }
 
-/* contact */
-#contact {
+/* events */
+#events {
     margin-top: 70px;
 }
 
+.post {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363636;
+}
+
+.post_title h1 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.post_title h2 {
+    margin-top: 2px;
+    font-size: 24px;
+    color: #666;
+}
+
+.post_title {
+    text-align: center;
+}
+
+.post_content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.post_content p, a {
+    font-size: 18px;
+}
+
+.post_content a {
+    text-decoration: none;
+    color: #aaa;
+    border-bottom: 1px dashed #aaa;
+}
+
+.post_content a:hover {
+    color: #ccc;
+    border-bottom: none;
+}
+
+/* contact */
+#contact {
+    margin-top: 120px;
+    background-color: #e42d40;
+    height: 158px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact h1 {
+    font-size: 32px;
+}
+
+#contact h2 {
+    font-size: 18px;
+}
+
+#icon_container {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+#icon_container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 /* Footer */
 #footer {
-    height: 250px;
+    text-align: center;
+    height: 50px;
+    background-color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a {
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: #fff;
 }

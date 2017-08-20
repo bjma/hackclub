@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../assets/css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+        <title>Register</title>
+        <style type="text/css">
+        .input.is-active,
+        .input.is-focused,
+        .input:active,
+        .input:focus,
+        .textarea.is-active,
+        .textarea.is-focused,
+        .textarea:active,
+        .textarea:focus {
+            border-color: #E42D40;
+        }
+
+        </style>
+        <script src="../assets/js/registration.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="http://phhshackclub.tech"><img src="../assets/images/hackclub_white_text.svg" alt="hack club" style="height:28px;width:112px;"></a>
+            <a href="http://phhshackclub.tech"<span style="font-family:monospace;top:0;">// Piedmont Hills High School</span></a>
+        </div>
+        <div id="register">
+            <h1>Join Hack Club!</h1>
+            <form name="registration" class="register_form" action="https://formspree.io/jingjerma@gmail.com" method="post"
+            onsubmit="return formValidation()">
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control has-icons-left">
+                    <input class="input" type="text" placeholder="Your full name"
+                    required>
+                    <span class="icon is-small is-left">
+                        <i class="fa fa-user"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field">
+               <label class="label">Email</label>
+               <p class="control has-icons-left">
+                   <input class="input" type="email" placeholder="email@example.com" name="email" required>
+                   <span class="icon is-small is-left">
+                       <i class="fa fa-envelope"></i>
+                   </span>
+           </div>
+
+            <div class="field">
+                <label class="label">Student</label>
+                <p class="control has-icons-left">
+                    <input class="input" type="text" placeholder="Your PHHS Student ID" name="student-id" maxlength="8" required>
+                    <span class="icon is-small is-left">
+                        <i class="fa fa-id-card"></i>
+                    </span>
+                </p>
+            </div>
+
+            <div class="field">
+               <label class="label">Grade</label>
+               <p class="control has-icons-left">
+                   <input class="input" type="text" placeholder="Your current grade" name="grade" maxlength="2" required>
+                   <span class="icon is-small is-left">
+                       <i class="fa fa-graduation-cap"></i>
+                   </span>
+               </p>
+           </div>
+
+            <br>
+            <div id="buttonHolder">
+            <input id="submit_button" type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
