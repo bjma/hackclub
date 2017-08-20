@@ -34,6 +34,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
 /* main content */
 #register {
     width: 60%;
@@ -45,6 +54,7 @@ body {
 #register h1 {
     font-family:'Source Sans Pro', sans-serif;
     font-size: 36px;
+    vertical-align: middle;
 }
 
 #submit_button {

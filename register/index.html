@@ -24,58 +24,83 @@
     </head>
     <body>
         <div class="navbar">
-            <a href="http://phhshackclub.tech" style="font-family:'Amaranth',sans-serif;font-size:18px;">
-            <i class="fa fa-flag fa-lg" style="color:#fff;"></i>
-            &nbsp; Piedmont Hills Hack Club</a>
-        </div>
-        <div id="register">
-            <h1>Join Hack Club!</h1>
-            <form name="registration" class="register_form" action="https://formspree.io/jingjerma@gmail.com" method="post"
-            onsubmit="return formValidation()">
-            <div class="field">
-                <label class="label">Name</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="Your full name"
-                    required>
-                    <span class="icon is-small is-left">
-                        <i class="fa fa-user"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-               <label class="label">Email</label>
-               <p class="control has-icons-left">
-                   <input class="input" type="email" placeholder="email@example.com" name="email" required>
+           <a href="http://phhshackclub.tech" style="font-family:'Amaranth',sans-serif;font-size:18px;">
+           <i class="fa fa-flag fa-lg" style="color:#fff;"></i>
+           &nbsp; Piedmont Hills Hack Club</a>
+       </div>
+       <div id="register">
+           <h1>Join Hack Club!<a href="https://hackclub.com/"><img style="height:45px;margin-left:15px;" src="https://cdn.rawgit.com/hackclub/meta/fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/banner_orpheus_hand_rotated.svg" alt="Hack Club"/></a></h1>
+           <hr style="background-color#ddd;margin-top:8px;">
+           <form name="registration" class="register_form" action="https://formspree.io/jingjerma@gmail.com" method="post"
+           onsubmit="return formValidation()">
+           <div class="field">
+               <label class="label">Name</label>
+               <div class="control has-icons-left">
+                   <input class="input" type="text" placeholder="Your full name"
+                   required>
                    <span class="icon is-small is-left">
-                       <i class="fa fa-envelope"></i>
+                       <i class="fa fa-user"></i>
                    </span>
+               </div>
            </div>
+           <div class="field">
+              <label class="label">Email</label>
+              <p class="control has-icons-left">
+                  <input class="input" type="email" placeholder="email@example.com" name="email" required>
+                  <span class="icon is-small is-left">
+                      <i class="fa fa-envelope"></i>
+                  </span>
+          </div>
 
-            <div class="field">
-                <label class="label">Student</label>
-                <p class="control has-icons-left">
-                    <input class="input" type="text" placeholder="Your PHHS Student ID" name="student-id" maxlength="8" required>
-                    <span class="icon is-small is-left">
-                        <i class="fa fa-id-card"></i>
-                    </span>
-                </p>
-            </div>
-
-            <div class="field">
-               <label class="label">Grade</label>
+           <div class="field">
+               <label class="label">Student</label>
                <p class="control has-icons-left">
-                   <input class="input" type="text" placeholder="Your current grade" name="grade" maxlength="2" required>
+                   <input class="input" type="text" placeholder="Your PHHS Student ID" name="student-id" maxlength="8" required>
                    <span class="icon is-small is-left">
-                       <i class="fa fa-graduation-cap"></i>
+                       <i class="fa fa-id-card"></i>
                    </span>
                </p>
            </div>
 
-            <br>
-            <div id="buttonHolder">
-            <input id="submit_button" type="submit" value="Submit">
-            </div>
-            </form>
-        </div>
+           <div class="field">
+              <label class="label">Grade</label>
+              <p class="control has-icons-left">
+                  <input class="input" type="text" placeholder="Your current grade" name="grade" maxlength="2" required>
+                  <span class="icon is-small is-left">
+                      <i class="fa fa-graduation-cap"></i>
+                  </span>
+              </p>
+          </div>
+
+           <br>
+           <div id="buttonHolder">
+           <input id="submit_button" type="submit" value="Submit">
+           </div>
+           </form>
+       </div>
+        <canvas class="background"></canvas>
+        <script src="../assets/js/particles.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                Particles.init({
+                    selector: '.background',
+                    color: '#e42d40',
+                    maxParticles: 325,
+                    connectParticles: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        options: {
+                            maxParticles: 80
+                        }
+                    }, {
+                        breakpoint: 375,
+                        options: {
+                            maxParticles: 50
+                        }
+                    }
+                ]
+            });
+        };
+        </script>
     </body>
 </html>
