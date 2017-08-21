@@ -30,7 +30,7 @@ if you have the time.
 Our suggested topics are: programs that solve minute, daily problems;
 websites that provide services better than the mainstream ones
 (think of improvements! UI, functionality, etc.); or whatever you deem enjoyable
-and fun (it can be game or a meme generator). Your project doesn't have to be
+and fun (it can be a game or a meme generator). Your project doesn't have to be
 something useful, it can be the silliest, most unnecessary idea you can think
 of. Just build something!
 
@@ -38,7 +38,7 @@ Remember, while we provide the materials for you to get started, we won't be
 there to guide you every step of the way. Be resourceful; the club leaders are
 there to help, but you should use Google or Stack Overflow as your primary
 learning material while working on your projects (don't worry,
-Googling stuff to fulfill the current task is what every programmer does).
+Googling stuff when you're clueless is what every programmer does).
 
 From **jsneak** (Hack Club leader at William Fremd High School):
 > "I learn the most when I start a new project. It's because I have to
