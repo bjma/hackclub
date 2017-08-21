@@ -1,10 +1,10 @@
 # Piedmont Hills Hack Club
+![hackclub](https://puu.sh/xfpou/f38f6e3f9a.png)
 ## About
 Piedmont Hills Hack Club is an after-school coding club branching from the
 organization[Hack Club](https://hackclub.com). We hold club meetings every
 Tuesday after seventh period. For more info, check the website at
 http://phhshackclub.tech.
-
 ## Structure
 We try our best to make our meetings similar to mini-hackathons, meaning that
 each club meeting presents an opportunity to learn and create.
@@ -46,7 +46,7 @@ Google stuff to fulfill the current task I'm working on."
 
 ![message](https://puu.sh/xfomC/5743a96070.png)
 
-TL;DR: Learn by doing. That's our philosophy.
+**TL;DR**: Learn by doing. That's our philosophy.
 
 ### Presentation Days
 2-3 months after you start on your projects, we will give one day to finalize
