@@ -1,5 +1,5 @@
 # Piedmont Hills Hack Club
-![hackclub](https://puu.sh/xfpou/f38f6e3f9a.png)
+![hackclub](https://puu.sh/xfpEd/d8fbae5690.png)
 ## About
 Piedmont Hills Hack Club is an after-school coding club branching from the
 organization[Hack Club](https://hackclub.com). We hold club meetings every
