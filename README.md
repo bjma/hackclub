@@ -7,7 +7,8 @@ Tuesday after seventh period. For more info, check the website at
 http://phhshackclub.tech.
 ## Structure
 We try our best to make our meetings similar to mini-hackathons, meaning that
-each club meeting presents an opportunity to learn and create.
+each club meeting presents an opportunity to learn and create. You will be
+leaving each meeting having created something.
 ### Workshop Days
 On these days, the meeting will consist of a live demo covering workshops
 provided by [Hack Club](https://hackclub.com). Students can work at their own
@@ -23,7 +24,7 @@ dirty by coding. So, make something!
 
 Project days will be *every* club meeting, either during workshop demos or
 whatever remaining time after the demo. Each member will choose a team and pick
-a topic they want to work on, and will have 2-3 months to work on it. Our meetings
+a topic they want to work on, and will have 2-3 weeks to work on it. Our meetings
 will only be 1 hour every week, so be sure to work on your project at home too,
 if you have the time.
 
