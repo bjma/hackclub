@@ -8,7 +8,7 @@ http://phhshackclub.tech.
 ## Structure
 We try our best to make our meetings similar to mini-hackathons, meaning that
 each club meeting presents an opportunity to learn and create. You will be
-leaving each meeting having creating something.
+leaving each meeting having created something.
 ### Workshop Days
 On these days, the meeting will consist of a live demo covering workshops
 provided by [Hack Club](https://hackclub.com). Students can work at their own
