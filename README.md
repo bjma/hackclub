@@ -23,7 +23,7 @@ dirty by coding. So, make something!
 
 Project days will be *every* club meeting, either during workshop demos or
 whatever remaining time after the demo. Each member will choose a team and pick
-a topic they want to work on, and will have 2-3 months to work on it. Our meetings
+a topic they want to work on, and will have 2-3 weeks to work on it. Our meetings
 will only be 1 hour every week, so be sure to work on your project at home too,
 if you have the time.
 
