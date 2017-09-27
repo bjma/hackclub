@@ -1,5 +1,4 @@
 /* Imported fonts */
-/* Imported fonts */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
@@ -48,7 +47,6 @@ body {
     float: left;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
     font-size: 18px;
     letter-spacing: 1px;
     color: #f2f2f2;
@@ -57,13 +55,17 @@ body {
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 4px;
-    padding: 12px 16px 12px 16px;
+    padding: 8px 8px 8px 8px;
 }
 
 .navbar a:hover {
     color: #e42d40;
     background: #fff;
     transition: 0.3s;
+}
+
+.navbar #workshops{
+    float: right;
 }
 
 
@@ -78,7 +80,6 @@ body {
 	-ms-animation: 10s linear 0s normal none infinite animate;
 	-o-animation: 10s linear 0s normal none infinite animate;
 	animation: 10s linear 0s normal none infinite animate;
-
 }
 
 @-webkit-keyframes animate {
@@ -108,8 +109,11 @@ body {
 
 #intro {
     position: absolute;
-    top: 25%;
     width: 100%;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 
 #title {
@@ -155,7 +159,7 @@ body {
     padding: 0 4px 0 4px;
     font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size: 22px;
+    font-size: 22.5px;
 }
 
 #mission p {
@@ -245,15 +249,16 @@ body {
 
 .card {
     display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
     transition: 0.3s;
+    border: 1px solid #ddd;
     width: 275px;
     margin: 20px 10px 0 15px;
     padding-bottom: 15px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(10, 10, 10, 0.1);
     cursor: pointer;
 }
 
@@ -301,8 +306,10 @@ body {
 }
 
 .profile-container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
     transition: 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     height: 245px;
     width: 200px;
     margin: 0 10px 0 10px;
@@ -310,7 +317,7 @@ body {
 }
 
 .profile-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(10, 10, 10, 0.1);
     cursor: pointer;
 }
 
@@ -376,12 +383,112 @@ body {
     margin: 0 auto;
 }
 
+/* events */
+#events {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.post {
+    margin: 15px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363636;
+    display: inline-block;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+    transition: 0.3s;
+    border: 1px solid #ddd;
+    width: 45%;
+    padding-bottom: 15px;
+}
+
+.post:hover {
+    box-shadow: 0 4px 16px rgba(10, 10, 10, 0.1);
+    cursor: pointer;
+}
+
+.post_title h1 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.post_title h2 {
+    margin-top: 2px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.post_title {
+    text-align: center;
+}
+
+.post_content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.post_content p, a {
+    font-size: 18px;
+}
+
+.post_content a {
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px dotted #aaa;
+}
+
+.post_content a:hover {
+    color: #666;
+    border-bottom: none;
+}
+
 /* contact */
 #contact {
     margin-top: 70px;
+    background-color: #e42d40;
+    height: 158px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+#contact h1 {
+    font-size: 32px;
+}
+
+#contact h2 {
+    font-size: 18px;
+}
+
+#icon_container {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+#icon_container a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Footer */
 #footer {
-    height: 250px;
+    text-align: center;
+    height: 50px;
+    background-color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
 }

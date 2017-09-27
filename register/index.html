@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../assets/css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+        <title>Register</title>
+        <style type="text/css">
+        .input.is-active,
+        .input.is-focused,
+        .input:active,
+        .input:focus,
+        .textarea.is-active,
+        .textarea.is-focused,
+        .textarea:active,
+        .textarea:focus {
+            border-color: #E42D40;
+        }
+
+        </style>
+        <script src="../assets/js/registration.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+           <a href="http://phhshackclub.tech">
+           <img src="../assets/images/hackclub_white_text.svg" alt="hack club"
+           style="width:75%;height:75%;margin-left:-40px;"></a>
+       </div>
+       <div id="register">
+           <h1>Join Hack Club!<a href="https://hackclub.com/"><img style="height:45px;margin-left:15px;" src="https://cdn.rawgit.com/hackclub/meta/fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/banner_orpheus_hand_rotated.svg" alt="Hack Club"/></a></h1>
+           <hr style="background-color#ddd;margin-top:8px;">
+           <form name="registration" class="register_form" action="https://formspree.io/phhshackclub@gmail.com" method="post"
+           onsubmit="return formValidation()">
+           <div class="field">
+               <label class="label">Name</label>
+               <div class="control has-icons-left">
+                   <input class="input" type="text" placeholder="Your full name" name="name"
+                   required>
+                   <span class="icon is-small is-left">
+                       <i class="fa fa-user"></i>
+                   </span>
+               </div>
+           </div>
+           <div class="field">
+              <label class="label">Email</label>
+              <p class="control has-icons-left">
+                  <input class="input" type="email" placeholder="email@example.com" name="email" required>
+                  <span class="icon is-small is-left">
+                      <i class="fa fa-envelope"></i>
+                  </span>
+          </div>
+
+           <div class="field">
+               <label class="label">Student</label>
+               <p class="control has-icons-left">
+                   <input class="input" type="text" placeholder="Your PHHS Student ID" name="student-id" maxlength="8" required>
+                   <span class="icon is-small is-left">
+                       <i class="fa fa-id-card"></i>
+                   </span>
+               </p>
+           </div>
+
+           <div class="field">
+              <label class="label">Grade</label>
+              <p class="control has-icons-left">
+                  <input class="input" type="text" placeholder="Your current grade" name="grade" maxlength="2" required>
+                  <span class="icon is-small is-left">
+                      <i class="fa fa-graduation-cap"></i>
+                  </span>
+              </p>
+          </div>
+
+           <br>
+           <div id="buttonHolder">
+           <input id="submit_button" type="submit" value="Submit">
+           </div>
+           </form>
+       </div>
+        <canvas class="background"></canvas>
+        <script src="../assets/js/particles.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                Particles.init({
+                    selector: '.background',
+                    color: '#e42d40',
+                    maxParticles: 250,
+                    connectParticles: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        options: {
+                            maxParticles: 80
+                        }
+                    }, {
+                        breakpoint: 375,
+                        options: {
+                            maxParticles: 50
+                        }
+                    }
+                ]
+            });
+        };
+        </script>
+    </body>
+</html>
