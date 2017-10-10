@@ -31,7 +31,7 @@
                 <div id="announcement">
                     <h6>Announcement
                     <i class="fa fa-bullhorn" style="color:#000;"></i></h6>
-                    <p>Meeting in F-28 on 10/3! Also, WilHacks is soon! Check
+                    <p>Meeting in F-28 on <span id="tuesday">js is broken lmao</span>! Also, WilHacks is soon! Check
                     the events section for info and the Facebook group for
                     updates.</p>
                 </div>
@@ -275,5 +275,21 @@
     <!-- Scripts; keep at bottom -->
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <!-- IT IS TUESDAY MY DUDES -->
+    <script>
+        var d = new Date();
+        var date = d.getDate();
+        var day = d.getDay();
+        
+        date += 2 - day;
+        if (day > 2){
+            date += 7;
+        }
+        var dPrime = new Date(d.getYear(), d.getMonth(), date);
+        
+        $("#tuesday")[0].textContent = (dPrime.getMonth() + 1) + "/" + dPrime.getDate();
+    </script>
+    
     </body>
 </html>
