@@ -64,6 +64,10 @@ body {
     transition: 0.3s;
 }
 
+.navbar #workshops{
+    float: right;
+}
+
 
 /* Header */
 #header {
@@ -452,6 +456,7 @@ body {
 
 #contact h1 {
     font-size: 32px;
+
 }
 
 #contact h2 {
@@ -469,6 +474,26 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+
+}
+
+#contact h2 {
+    font-size: 18px;
+}
+
+#icon_container {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+#icon_container a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 /* Footer */
