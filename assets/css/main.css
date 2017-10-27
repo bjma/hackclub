@@ -203,6 +203,13 @@ body {
     color: #fff;
 }
 
+#announcement a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: #777;
+    border-bottom: 1px dotted #777;
+}
+
 /* Content wrapper */
 #content {
     height: 100%;
