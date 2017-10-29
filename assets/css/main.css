@@ -191,6 +191,14 @@ body {
     margin-left: 15px;
 }
 
+#announcement a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: #777;
+    border-bottom: 1px dotted #777;
+    font-size: 1em;
+}
+
 #down-button {
     position: absolute;
     margin: 0 0 0 50%;
@@ -201,13 +209,6 @@ body {
 #down-button a {
     text-decoration: none;
     color: #fff;
-}
-
-#announcement a {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-decoration: none;
-    color: #777;
-    border-bottom: 1px dotted #777;
 }
 
 /* Content wrapper */
