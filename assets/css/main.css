@@ -194,8 +194,8 @@ body {
 #announcement a {
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
-    color: #777;
-    border-bottom: 1px dotted #777;
+    color: #aaa;
+    border-bottom: 1px dotted #aaa;
     font-size: 1em;
 }
 
