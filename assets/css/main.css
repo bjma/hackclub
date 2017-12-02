@@ -191,6 +191,14 @@ body {
     margin-left: 15px;
 }
 
+#announcement a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: #aaa;
+    border-bottom: 1px dotted #aaa;
+    font-size: 1em;
+}
+
 #down-button {
     position: absolute;
     margin: 0 0 0 50%;
