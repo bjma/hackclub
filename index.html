@@ -154,25 +154,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="profile">
-                            <div class="profile-container">
-                                <img alt="Evan Kuykendal" src="assets/images/placeholder.svg"
-                                style="height:125px;width:125px;">
-                                <h2>Evan Kuykendal</h2>
-                                <h4>Treasurer</h4>
-                                <a href="https://github.com/thelegend20evan"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/profile.php?id=100008921490429"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="mailto:someone@example.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="row">
                     <div class="column">
                         <div class="profile">
+                            <div class="profile">
+                                <div class="profile-container">
+                                    <img alt="Evan Kuykendal" src="assets/images/placeholder.svg"
+                                    style="height:125px;width:125px;">
+                                    <h2>Evan Kuykendal</h2>
+                                    <h4>Treasurer</h4>
+                                    <a href="https://github.com/thelegend20evan"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100008921490429"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="mailto:someone@example.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="column">
+                        <div class="profile" onclick="change_officer_info('Ryan Chang 2017')">
                             <div class="profile-container">
-                                <img alt="Ryan Chang" src="assets/images/placeholder.svg"
+                                <img alt="Ryan Chang" src="assets/images/officers/2017-2018/RyanChang.jpg"
                                 style="height:125px;width:125px;">
                                 <h2>Ryan Chang</h2>
                                 <h4>Publicist</h4>
@@ -196,80 +197,94 @@
                         </div>
                     </div>
                 </div>
-                <!--<div id="club_photos">
-                    <div class="title">
-                        <i class="fa fa-photo fa-4x"
-                        style="color:#363636;"></i>
-                        <h1>Club Photos</h1>
-                        <hr>
-                    </div>
-                    <div id="photo_container">
-                        <img alt="photo1" src="assets/images/photo1.jpg">
-                        <img alt="photo2" src="assets/images/photo2.jpg">
-                        <img alt="photo3" src="assets/images/photo3.jpg">
-                        <img alt="photo4" src="assets/images/photo4.jpg">
-                        <img alt="photo5" src="assets/images/photo5.jpg">
-                        <img alt="photo6" src="assets/images/photo6.jpg">
-                    </div>
-                </div>-->
-                <div id="events">
-                    <div class="title">
-                        <i class="fa fa-calendar fa-4x"
-                        style="color:#363636"></i>
-                        <h1>Upcoming Events</h1>
-                        <hr>
-                    </div>
-                    <div class="post_container">
-                        <div class="post fade" onclick="plusSlides(1)"
-                        style="margin-top:28px">
-                            <div class="post_title">
-                                <img src="assets/images/codedayba.png" alt="code day"
-                                style="width:100%;height:100%;margin-top:0;">
-                                <h1>CodeDay Bay Area 2017</h1>
-                                <h2>6600 Dumbarton Cir, Fremont, CA 94555</h2>
-                                <h2>Nov 11 (11:00am) - Nov 12 (12:00pm)</h2>
-                            </div>
-                            <div class="post_content">
-                                <p>CodeDay is a 24 hour coding event where student
-                                programmers come together and build apps &amp;
-                                games. No coding experience or knowledge is required;
-                                hackathons are meant to be a collaborative experience
-                                to create and learn.</p>
-                                <p style="margin-top:8px;">You can read more information
-                                <a href="https://codeday.org/ba">here</a>.
-                                If you do not have a ride, make a post in the
-                                Facebook group to request a carpool.</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="profile">
+                        <div class="profile-container" style="position:relative; width:800px">
+                            <div id="officer-info" style="position: absolute; width:700px; top:50%; left:50%; transform:translate(-50%, -50%)">
+                                
+                                <h2>Click a Card for information!</h2>
+
                             </div>
                         </div>
-                        <br>
-                        <div class="post fade" onclick="plusSlides(1)">
-                            <div class="post_title">
-                                <img src="assets/images/wilhacks.PNG" alt="WilHacks"
-                                style="width:100%;height:100%;margin-top:0;">
-                                <h1>WilHacks 1.0</h1>
-                                <h2>3250 Monroe St, Santa Clara</h2>
-                                <h2>Oct 13 (5:30pm) - Oct 14 (7:30pm)</h2>
-                            </div>
-                            <div class="post_content">
-                                <p>WilHacks is a  24-hour hackathon hosted at
-                                Adrian C. Wilcox High School in Santa Clara, catered towards all skill
-                                levels. Food and
-                                merchandise will be provided for no cost at all,
-                                but essentials such as laptops, chargers, and sleeping
-                                -bags are not provided.</p>
-                                <p style=margin-top:8px>If you do not have a ride, make a post in the
-                                Facebook group to request a carpool.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="slideshow_navigation">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
                     </div>
                 </div>
             </div>
+            <!--<div id="club_photos">
+                <div class="title">
+                    <i class="fa fa-photo fa-4x"
+                    style="color:#363636;"></i>
+                    <h1>Club Photos</h1>
+                    <hr>
+                </div>
+                <div id="photo_container">
+                    <img alt="photo1" src="assets/images/photo1.jpg">
+                    <img alt="photo2" src="assets/images/photo2.jpg">
+                    <img alt="photo3" src="assets/images/photo3.jpg">
+                    <img alt="photo4" src="assets/images/photo4.jpg">
+                    <img alt="photo5" src="assets/images/photo5.jpg">
+                    <img alt="photo6" src="assets/images/photo6.jpg">
+                </div>
+            </div>-->
+            <div id="events">
+                <div class="title">
+                    <i class="fa fa-calendar fa-4x"
+                    style="color:#363636"></i>
+                    <h1>Upcoming Events</h1>
+                    <hr>
+                </div>
+                <div class="post_container">
+                    <div class="post fade" onclick="plusSlides(1)"
+                    style="margin-top:28px">
+                        <div class="post_title">
+                            <img src="assets/images/codedayba.png" alt="code day"
+                            style="width:100%;height:100%;margin-top:0;">
+                            <h1>CodeDay Bay Area 2017</h1>
+                            <h2>6600 Dumbarton Cir, Fremont, CA 94555</h2>
+                            <h2>Nov 11 (11:00am) - Nov 12 (12:00pm)</h2>
+                        </div>
+                        <div class="post_content">
+                            <p>CodeDay is a 24 hour coding event where student
+                            programmers come together and build apps &amp;
+                            games. No coding experience or knowledge is required;
+                            hackathons are meant to be a collaborative experience
+                            to create and learn.</p>
+                            <p style="margin-top:8px;">You can read more information
+                            <a href="https://codeday.org/ba">here</a>.
+                            If you do not have a ride, make a post in the
+                            Facebook group to request a carpool.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="post fade" onclick="plusSlides(1)">
+                        <div class="post_title">
+                            <img src="assets/images/wilhacks.PNG" alt="WilHacks"
+                            style="width:100%;height:100%;margin-top:0;">
+                            <h1>WilHacks 1.0</h1>
+                            <h2>3250 Monroe St, Santa Clara</h2>
+                            <h2>Oct 13 (5:30pm) - Oct 14 (7:30pm)</h2>
+                        </div>
+                        <div class="post_content">
+                            <p>WilHacks is a  24-hour hackathon hosted at
+                            Adrian C. Wilcox High School in Santa Clara, catered towards all skill
+                            levels. Food and
+                            merchandise will be provided for no cost at all,
+                            but essentials such as laptops, chargers, and sleeping
+                            -bags are not provided.</p>
+                            <p style=margin-top:8px>If you do not have a ride, make a post in the
+                            Facebook group to request a carpool.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="slideshow_navigation">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
             <div id="contact">
                 <br>
                 <h1>Follow Us!</h1>
@@ -291,6 +306,7 @@
     <!-- Scripts; keep at bottom -->
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/officer_info.js"></script>
 
     <!-- IT IS TUESDAY MY DUDES -->
     <script>
