@@ -386,6 +386,17 @@ body {
     margin-top: 20px;
 }
 
+/* Ryan's hot garbage */
+/* ay lmao */
+#officer-info p {
+    padding: 0px 10px;
+    text-align: left;
+}
+
+#officer-info h2 {
+    padding: 0px 0px;
+}
+
 /* Photo gallery */
 #club_photos {
     margin-top: 70px;
