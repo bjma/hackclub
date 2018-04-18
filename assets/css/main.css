@@ -12,6 +12,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
+ul, li, ol,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -189,6 +190,17 @@ body {
 #announcement p {
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 15px;
+}
+
+
+#announcement ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+}
+
+#announcement ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 35px;
 }
 
 #announcement a {
@@ -372,6 +384,17 @@ body {
 
 #team-members img {
     margin-top: 20px;
+}
+
+/* Ryan's hot garbage */
+/* ay lmao */
+#officer-info p {
+    padding: 0px 10px;
+    text-align: left;
+}
+
+#officer-info h2 {
+    padding: 0px 0px;
 }
 
 /* Photo gallery */
